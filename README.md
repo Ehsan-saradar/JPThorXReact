@@ -6,15 +6,12 @@ Welcome to the GitHub repository for the official JP Thor website. This site pre
 
 - **Responsive Design**: Optimized for various devices.
 - **Dynamic Content**: Landing page data sourced from `site-data.json`.
-- **Modern Tech Stack**: Implemented with HTML, CSS, and JavaScript.
+- **Modern Tech Stack**: Implemented with React.
 
 ## Project Structure
 
-- `index.html` - Main landing page.
-- `assets/` - Media files including images and videos.
-- `styles.css` - Stylesheets for website design.
-- `main.js` - JavaScript for site interactivity.
-- `site-data.json` - JSON file containing data for the landing page.
+- `public/` - Media files including images and videos.
+- `/src/copy` - JSON files containing data for the each section of landing page.
 
 ## Contributing
 
