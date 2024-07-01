@@ -1,6 +1,6 @@
 export const explorerCopy = {
     title: "EXPLORER",
-    description: "'Aspire to be high-agency, high-output'. Explore and learn relentlessly; no challenge is insurmountable. The universe is there to be explored.",
+    description: `"Aspire to be high-agency, high-output". Explore and learn relentlessly; no challenge is insurmountable. The universe is there to be explored.`,
     cards: [
         {
             title: "Rotorhub: Australian entrepreneur signs for ACH125 and plans Poles expedition",

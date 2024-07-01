@@ -30,12 +30,12 @@ export const footerCopy = {
                 },
                 {
                     name: "TraitForge",
-                    url: "https://traitforge.info",
+                    href: "https://traitforge.info",
                     target: "_blank"
                 },
                 {
                     name: "Nextgen North",
-                    url: "https://linktr.ee/nextgennorth",
+                    href: "https://linktr.ee/nextgennorth",
                     target: "_blank"
                 }
             ]
@@ -60,7 +60,7 @@ export const footerCopy = {
     socials: [
         {
             title: "X",
-            href: "https://twitter.com/jpthor",
+            href: "https://twitter.com/JPTHOR",
             image: "./img/icon-x-green.svg",
             target: "_blank"
         },

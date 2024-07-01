@@ -11,8 +11,6 @@ export function Trigger({
     const { handleOpen, randomId } = useContext(AppContext)
 
     return (
-        <img src="./img/text-center.svg" height="50px" id="menu-ico" data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasRight" onClick={handleOpen} />
-
+        <img src="./img/text-center.svg" height="50px" id="menu-ico" onClick={handleOpen} />
     )
 }

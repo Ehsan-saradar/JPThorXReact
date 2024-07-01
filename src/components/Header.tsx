@@ -12,7 +12,7 @@ export function Header() {
                         {headerCopy.title_1} <br />  {headerCopy.title_2} <br /> {headerCopy.title_3}
                     </h1>
                     <div fade-time="3" fade-direction="left" className="text-medium mt-4 fade-effect" >
-                        {headerCopy.subtitle}
+                        {headerCopy.subtitle_1} <br /> {headerCopy.subtitle_2}
                     </div>
                 </div>
             </header>

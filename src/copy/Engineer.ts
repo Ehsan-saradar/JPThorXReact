@@ -1,6 +1,6 @@
 export const engineerCopy = {
     title: "ENGINEER",
-    description: "'Ideas are cheap, execution is everything'. The world is built by engineers and creators. Seek to learn and build every day.",
+    description: `"Ideas are cheap, execution is everything". The world is built by engineers and creators. Seek to learn and build every day.`,
     cards: [
         {
             title: "Pivotal-BoltPlus",

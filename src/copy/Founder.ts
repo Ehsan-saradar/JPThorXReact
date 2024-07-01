@@ -1,6 +1,6 @@
 export const founderCopy = {
     title: "FOUNDER",
-    description: "'Plan to succeed, expect to fail'. Nothing is more potent than creating nothing from something. Create, Create, Create.",
+    description: `"Plan to succeed, expect to fail". Nothing is more meaningful than creating nothing from something. Create, Create, Create.`,
     cards: [
         {
             title: "THORChain",

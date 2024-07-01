@@ -45,8 +45,10 @@ export function Offcanvas({
     }, [onEscKey])
 
     // useEffect(() => {
-    //     document.addEventListener('click', onClickOutside, false)
-    //     return () => document.removeEventListener('click', onClickOutside)
+    //     if (isOpen) {
+    //         document.getElementsByClassName("OffCanvas_backdrop__-Fmj- ")[0].addEventListener('click', onClickOutside, false)
+    //         return () => document.getElementsByClassName("OffCanvas_backdrop__-Fmj- ")[0].removeEventListener('click', onClickOutside)
+    //     }
     // }, [onClickOutside])
 
     useEffect(() => {
@@ -88,7 +90,7 @@ export function Offcanvas({
                         <ul className="navbar-nav text-end">
                             {navbarCopy.links.map((link, index) => (
                                 <li key={index} className="nav-item">
-                                    <a href={link.href} className="nav-link">{link.title}</a>
+                                    <a href={link.href} className="nav-link" onClick={handleClose}>{link.title}</a>
                                 </li>
                             ))}
                         </ul>
@@ -108,7 +110,7 @@ export function Offcanvas({
                 </div>
             </div>
             {backdrop && (
-                <div className={`${scss.backdrop} ${isOpen ? scss.show : ''}`} />
+                <div onClick={handleClose} className={`${scss.backdrop} ${isOpen ? scss.show : ''}`} />
             )}
         </>
     )

@@ -2,6 +2,10 @@ export const navbarCopy = {
     title: "MENU",
     links: [
         {
+            title: "MEET JP THOR",
+            href: "#meet"
+        },
+        {
             title: "FOUNDER",
             href: "#FOUNDER"
         },
@@ -10,16 +14,12 @@ export const navbarCopy = {
             href: "#ENGINEER"
         },
         {
-            title: "INVESTOR",
-            href: "#INVESTOR"
-        },
-        {
             title: "EXPLORER",
             href: "#explorer"
         },
         {
-            title: "MEET JP THOR",
-            href: "#meet"
+            title: "INVESTOR",
+            href: "#INVESTOR"
         },
         {
             title: "BIO",

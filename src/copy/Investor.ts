@@ -1,6 +1,6 @@
 export const investorCopy = {
     title: "INVESTOR",
-    description: "'Invest in expanding Humanity's memetic output' JP allocates capital to projects that can expand the memetic envelope of humanity.",
+    description: `"Invest in upgrading humanity's intelligence" JP allocates capital to projects that can expand the memetic envelope of humanity.`,
     cards: [
         {
             title: "Jetson EV",
@@ -17,7 +17,7 @@ export const investorCopy = {
             target: "_blank"
         },
         {
-            title: "Thorswap",
+            title: "THORSwap",
             description: "Decentralized Cross-Chain Interface",
             link: "https://thorswap.finance",
             image: "./img/logo-thorswap.svg",
