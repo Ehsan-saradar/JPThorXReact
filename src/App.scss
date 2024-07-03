@@ -415,7 +415,7 @@ h1 {
         transform: translateX(60%);
         top: -7.5%;
         z-index: -1;
-        width: 350px;
+        width: 50%;
         height: 350px;
     }
 
@@ -423,6 +423,15 @@ h1 {
 }
 
 @media (max-width: 576px) {
+    .arts-bio {
+        display: none;
+    }
+    .arts{
+        display: none;
+    }
+    .mt-section{
+        margin-top: 0 !important;
+    }
     .text-xxlarge {
         font-size: 33pt !important;
     }
@@ -459,7 +468,7 @@ h1 {
         transform: translateX(50%);
         top: -7.5%;
         z-index: -1;
-        width: 300px;
+        width: 50%;
         height: 300px;
     }
 
@@ -504,7 +513,7 @@ h1 {
         transform: translateX(50%);
         top: -7.5%;
         z-index: -1;
-        width: 300px;
+        width: 50%;
         height: 300px;
     }
 
