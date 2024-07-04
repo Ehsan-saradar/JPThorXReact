@@ -412,13 +412,16 @@ h1 {
     .arts {
         position: absolute;
         right: 0px;
-        transform: translateX(60%);
+        transform: translateX(0) !important;
         top: -7.5%;
         z-index: -1;
         width: 50%;
         height: 350px;
     }
-
+    .arts-bio {
+        transform: translateX(0) !important;
+        animation: none !important;
+    }
 
 }
 
