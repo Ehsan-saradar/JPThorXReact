@@ -6,28 +6,28 @@ export const investorCopy = {
             title: "Jetson EV",
             description: "Pioneering EVTOL company",
             link: "https://jetson.com/",
-            image: "./img/logo-jetson.svg",
+            image: "/img/logo-jetson.svg",
             target: "_blank"
         },
         {
             title: "Air EV",
             description: "Pushing the Envelope of Electric Aviation",
             link: "https://www.airev.aero/",
-            image: "./img/logo-air.svg",
+            image: "/img/logo-air.svg",
             target: "_blank"
         },
         {
             title: "THORSwap",
             description: "Decentralized Cross-Chain Interface",
             link: "https://thorswap.finance",
-            image: "./img/logo-thorswap.svg",
+            image: "/img/logo-thorswap.svg",
             target: "_blank"
         },
         {
             title: "Session",
             description: `Private Messanger. Send Messages, Not Metadata`,
             link: "https://getsession.org/",
-            image: "./img/logo-session.svg",
+            image: "/img/logo-session.svg",
             target: "_blank"
         }
     ]

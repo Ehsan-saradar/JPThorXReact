@@ -1,4 +1,5 @@
 import { footerCopy } from "@/app/copy/Footer";
+import Image from "next/image";
 
 export function Footer() {
     return (
@@ -7,7 +8,7 @@ export function Footer() {
                 <div className="row">
                     <div className="col-lg-5 d-flex flex-column justify-content-between">
                         <a href="#" className="mb-5">
-                            <img src="./img/jpthor-logo.svg" alt="JP THOR" />
+                            <Image width={140} height={40} src="/img/jpthor-logo.svg" alt="JP THOR" />
                         </a>
 
                         <div className="mt-5">
@@ -15,7 +16,7 @@ export function Footer() {
                                 {footerCopy.socials.map((social, index) => (
                                     <li key={index} className="p-social">
                                         <a href={social.href} target={social.target}>
-                                            <img src={social.image} alt={social.title} />
+                                            <Image width={30} height={30} src={social.image} alt={social.title} />
                                         </a>
                                     </li>
                                 ))}

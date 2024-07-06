@@ -1,4 +1,5 @@
 import { engineerCopy } from "@/app/copy/Engineer"
+import Image from "next/image"
 
 export function Engineer() {
     return (
@@ -16,19 +17,19 @@ export function Engineer() {
                         <div className="card-cont mt-5" id="ENGINEER">
                             {engineerCopy.cards.map((card, index) => (
                                 <div className="card-item item appear2 text-center text-lg-start" key={index}>
-                                    <img src={card.image} alt={card.title} />
+                                    <Image width={90} height={90} src={card.image} alt={card.title} />
                                     <h3 className="text-large my-3 item-head">{card.title}</h3>
                                     <div className="text-c9 text-medium text-thin item-body">
                                         {card.description}
                                     </div>
                                     <a href={card.link} target="_blank">
-                                        <img className="mt-5" src="./img/arrow-link-circle.svg" alt="Link" />
+                                        <Image width={52} height={52} className="mt-5" src="/img/arrow-link-circle.svg" alt="Link" />
                                     </a>
                                 </div>
                             ))}
                         </div>
                     </div>
-                    <img className="arts" src="./img/art-ent.svg" alt="ENTREPRENEUR" />
+                    <Image width={729} height={726} className="arts" src="/img/art-ent.svg" alt="ENGINEER" />
                 </div>
 
             </div>

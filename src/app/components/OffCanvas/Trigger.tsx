@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import { AppContext } from './Context'
 import { TriggerProps } from './Props'
+import Image from 'next/image'
 
 export function Trigger({
     component = 'button',
@@ -11,6 +12,6 @@ export function Trigger({
     const { handleOpen, randomId } = useContext(AppContext)
 
     return (
-        <img src="./img/text-center.svg" height="50px" id="menu-ico" onClick={handleOpen} />
+        <Image width={50} height={50} src="/img/text-center.svg"  id="menu-ico" alt='Menu' onClick={handleOpen} />
     )
 }

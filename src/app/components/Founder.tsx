@@ -1,4 +1,5 @@
 import { founderCopy } from "@/app/copy";
+import Image from "next/image";
 
 export function Founder() {
     return (
@@ -15,18 +16,18 @@ export function Founder() {
                         <div className="card-cont mt-5">
                             {founderCopy.cards.map((card, index) => (
                                 <div key={index} className="card-item item appear2 text-center text-lg-start">
-                                    <img src={card.image} alt={card.title} />
+                                    <Image width={90} height={90} src={card.image} alt={card.title} />
                                     <h3 className="text-large my-3">{card.title}</h3>
                                     <div className="text-c9 text-medium text-thin">
                                         {card.description}
                                     </div>
                                     <a href={card.link} target={card.target}>
-                                        <img className="mt-5" src="./img/arrow-link-circle.svg" alt="Link" /></a>
+                                        <Image width={52} height={52} className="mt-5" src="/img/arrow-link-circle.svg" alt="Link" /></a>
                                 </div>
                             ))}
                         </div>
                     </div>
-                    <img className="arts" src="./img/art-projects.svg" alt="Projects" />
+                    <Image width={662} height={670} className="arts" src="/img/art-projects.svg" alt="Projects" />
                 </div>
 
             </div>

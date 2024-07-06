@@ -1,4 +1,5 @@
 import {explorerCopy} from "@/app/copy/"
+import Image from "next/image"
 
 export function Explorer() {
     return (
@@ -17,7 +18,7 @@ export function Explorer() {
                                     target={card.target}
                                     href={card.link} >
                                     <div className="col-lg-6 p-0 d-flex align-items-center">
-                                        <img src={card.image} alt={card.alt} className="w-100 ex-img rounded-2" />
+                                        <Image width={270} height={148} src={card.image} alt={card.alt} className="w-100 ex-img rounded-2" />
                                     </div>
                                     <div className="col-lg-6 ps-lg-4 ps-0 pt-2 pt-lg-0 pe-0">
                                         <div className="text-c9 text-small text-thin text-narrow-height ex-text"
@@ -27,7 +28,7 @@ export function Explorer() {
                             ))}
                         </div>
                     </div>
-                    <img className="arts" src="./img/art-explorer.svg" alt="explorer" />
+                    <Image width={569} height={569} className="arts" src="/img/art-explorer.svg" alt="explorer" />
                 </div>
             </div>
         </>

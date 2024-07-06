@@ -3,6 +3,7 @@ import scss from './OffCanvas.module.scss'
 import { AppContext } from './Context'
 import { OffcanvasProps } from './Props'
 import { navbarCopy } from '../../copy'
+import Image from 'next/image'
 
 
 export function Offcanvas({
@@ -99,7 +100,7 @@ export function Offcanvas({
                             {navbarCopy.socials.map((social, index) => (
                                 <li key={index} className="p-social">
                                     <a target={social.target} href={social.href} >
-                                        <img src={social.image} alt={social.title} />
+                                        <Image width={30} height={30} src={social.image} alt={social.title} />
                                     </a>
                                 </li>
 

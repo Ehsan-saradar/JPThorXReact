@@ -61,19 +61,19 @@ export const footerCopy = {
         {
             title: "X",
             href: "https://twitter.com/JPTHOR",
-            image: "./img/icon-x-green.svg",
+            image: "/img/icon-x-green.svg",
             target: "_blank"
         },
         {
             title: "Instagram",
             href: "https://www.instagram.com/jpthor/",
-            image: "./img/icon-instagram-green.svg",
+            image: "/img/icon-instagram-green.svg",
             target: "_blank"
         },
         {
             title: "GitHub",
             href: "https://www.github.com/jpthor",
-            image: "./img/icon-github-green.svg",
+            image: "/img/icon-github-green.svg",
             target: "_blank"
         },
         {
@@ -85,13 +85,13 @@ export const footerCopy = {
         {
             title: "Youtube",
             href: "https://www.youtube.com/@jpthor",
-            image: "./img/icon-youtube-green.png",
+            image: "/img/icon-youtube-green.png",
             target: "_blank"
         },
         {
             title: "Linked-in",
             href: "https://www.linkedin.com/in/jpthor/",
-            image: "./img/icon-linkedin-green.svg",
+            image: "/img/icon-linkedin-green.svg",
             target: "_blank"
         }
     ]

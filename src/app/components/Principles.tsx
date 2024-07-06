@@ -1,4 +1,5 @@
 import { principlesCopy } from "@/app/copy/Principles";
+import Image from "next/image";
 
 export function Principles() {
     return (
@@ -14,7 +15,7 @@ export function Principles() {
                         <div className="card-cont mt-5">
                             {principlesCopy.cards.map((card, index) => (
                                 <div key={index} className="card-item item appear2 text-center text-lg-start position-relative">
-                                    <img src={card.image} className="position-absolute top-0 end-0" alt={card.title} />
+                                    <Image width={232} height={250} src={card.image} className="position-absolute top-0 end-0" alt={card.title} />
                                     <div className="position-relative">
                                         <div>
                                             <h2 className="text-large">{card.number}</h2>

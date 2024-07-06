@@ -1,4 +1,5 @@
 import { bioCopy } from "@/app/copy"
+import Image from "next/image"
 
 export function Bio() {
     return (
@@ -14,7 +15,7 @@ export function Bio() {
                             </p>
                         ))}
                     </div>
-                    <img className="arts-bio" src="./img/bg-sec-bio.png" alt="Projects" />
+                    <Image width={660} height={660} className="arts-bio" src="/img/bg-sec-bio.png" alt="Projects" />
                 </div>
             </div>
         </>

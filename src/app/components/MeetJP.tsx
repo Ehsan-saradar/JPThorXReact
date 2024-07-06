@@ -1,4 +1,5 @@
 import { meetJpCopy } from "@/app/copy/MeetJp";
+import Image from "next/image";
 
 export function MeetJP() {
     return (
@@ -17,7 +18,7 @@ export function MeetJP() {
                             </div>
                         </div>
                         <div className="col-md-5 text-lg-start text-center">
-                            <img id="meet-jp" src={meetJpCopy.image} className="appear2"
+                            <Image width={499} height={747} id="meet-jp" src={meetJpCopy.image} className="appear2"
                                 alt={meetJpCopy.alt} />
                         </div>
                     </div>
