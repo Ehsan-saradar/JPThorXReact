@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useEffect, useState } from "react";
 import { Founder } from "@/app/components/Founder";
 import { Header } from "@/app/components/Header";
@@ -10,8 +10,7 @@ import { Bio } from "@/app/components/Bio";
 import { Principles } from "@/app/components/Principles";
 import $ from "jquery"
 
-export function Landing() {
-    const [mounted, setMounted] = useState(true)
+export default function Landing() {
     useEffect(() => {
         const loadScript = (src: string) => {
             return new Promise<void>((resolve, reject) => {
@@ -87,7 +86,7 @@ export function Landing() {
     }, []);
     return (
         <>
-            {mounted &&
+            {
                 <>
                     <Header />
                     <div className="container mt-lg-high">
