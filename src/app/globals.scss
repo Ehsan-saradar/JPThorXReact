@@ -343,11 +343,16 @@ h1 {
     .arts {
         position: absolute;
         right: 0px;
-        transform: translateX(60%);
-        top: -20%;
+        transform: translateX(0) !important;
+        top: -7.5%;
         z-index: -1;
-        width: 450px;
-        height: 450px;
+        width: 50%;
+        height: 350px;
+    }
+
+    .arts-bio {
+        transform: translateX(0) !important;
+        animation: none !important;
     }
 
 
@@ -902,9 +907,9 @@ h1 {
         margin-top: 140px !important;
     }
 
-    .mt-300 {
-        margin-top: 187px !important;
-    }
+    // .mt-300 {
+    //     margin-top: 187px !important;
+    // }
 
     .parallax {
         background-position-x: -800px !important;
@@ -926,10 +931,7 @@ h1 {
 }
 
 @media (min-width:769px) and (max-width:1140px) {
-    .header-img {
-        background-position-x: -1100px !important;
-        width: 100%;
-    }
+   
 
     #ENTREPRENEUR .item-head,
     #ENTREPRENEUR .item-body {

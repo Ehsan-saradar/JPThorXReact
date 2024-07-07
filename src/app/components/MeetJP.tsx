@@ -8,7 +8,7 @@ export function MeetJP() {
                 <div className="w-100 pt-custom position-relative">
                     <div className="bullet" style={{ top: "120px" }}></div>
                     <div className="ps-lg-5 row">
-                        <div className="col-md-6 mt-3 mt-300">
+                        <div className="col-lg-6 mt-3 mt-300">
                             <div className="item appear2">
                                 <h2 className="text-xlarge text-bold">{meetJpCopy.title} <span
                                     className="text-green">{meetJpCopy.titleColored}</span></h2>
@@ -17,7 +17,7 @@ export function MeetJP() {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-md-5 text-lg-start text-center">
+                        <div className="col-lg-5 text-lg-start text-center">
                             <Image width={499} height={747} id="meet-jp" src={meetJpCopy.image} className="appear2"
                                 alt={meetJpCopy.alt} />
                         </div>
