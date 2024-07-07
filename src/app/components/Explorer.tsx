@@ -18,7 +18,7 @@ export function Explorer() {
                                     target={card.target}
                                     href={card.link} >
                                     <div className="col-lg-6 p-0 d-flex align-items-center">
-                                        <Image width={270} height={148} src={card.image} alt={card.alt} className="w-100 ex-img rounded-2" />
+                                        <img src={card.image} alt={card.alt} className="w-100 ex-img rounded-2" />
                                     </div>
                                     <div className="col-lg-6 ps-lg-4 ps-0 pt-2 pt-lg-0 pe-0">
                                         <div className="text-c9 text-small text-thin text-narrow-height ex-text"
