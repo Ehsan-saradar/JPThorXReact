@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# JP Thor Official Website
 
-## Getting Started
+Welcome to the GitHub repository for the official JP Thor website. This site presents JP Thor's innovative projects and adventurous pursuits.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Responsive Design**: Optimized for various devices.
+- **Dynamic Content**: Landing page data for each components sourced from files in `copy/` folder.
+- **Modern Tech Stack**: Implemented Server Side Rendering using Next.js for better SEO.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- `public/` - Contains static assets that can be accessed directly.
+- `app/` - Holds the main application code.
+-   `(pages)/` - Contains code for each page.
+-   `components/` - Individual components, representing different sections of the website.
+-   `copy/` - Each files represents the texts of each component used to dynamically set content of components.
+-   `fonts/` - Local font files used in this project.
+-   `shared-components/` - Common components like NavBar and Footer.
+-   `fonts.ts` - Used for managing different fonts of the project
+-   `globals.scss` - Global sass styles
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Contributing
 
-## Learn More
+Contributions are welcome! Please fork this repository, make your changes, and submit a pull request.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+For more information, visit the [official JP Thor website](https://jpthor.com)
